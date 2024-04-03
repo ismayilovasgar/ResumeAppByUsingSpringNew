@@ -1,0 +1,16 @@
+package com.company.service.inter;
+
+import com.company.entity.UserSkill;
+
+import java.util.List;
+
+public interface UserSkillServiceInter{
+
+        public List<UserSkill> getAllSkillByUserId(int userId);
+
+        public boolean insertUserSkill(UserSkill u);
+
+        public boolean updateUserSkill(UserSkill u);
+
+        public boolean removeUserSkill(int id);
+}
